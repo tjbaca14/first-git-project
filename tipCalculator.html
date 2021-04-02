@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="while.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="calculator">
+    <h1>Tip Calculator</h1>
+    <form>
+      <p>Total Bill Amount</p>
+      <input id="billAmount" type="text">
+      <p>Tip desired amount</p>
+    <select id="serviceQual">
+      <option value="0">Choose an option</option>
+      <option value=".3">30% Tip</option>
+      <option value=".2">20% Tip</option>
+      <option value=".15">15%</option>
+    </select>
+    <p>Enter the amount of people in your party</p>
+    <input id="numPeople" type="text">
+  </form>
+    <button type="button" onclick="calcTip()">Click for tip Amount</button>
+    <p id="finalAmount"></p>
+
+
+  </body>
+  <script type="text/javascript" src="while.js">
+
+  </script>
+</html>
